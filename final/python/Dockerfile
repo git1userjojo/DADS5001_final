@@ -8,8 +8,6 @@ COPY ./pages/* requirements.txt ./
 RUN python -m pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-#RUN python addjsondata.py
-
 EXPOSE 8501
 
 HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
