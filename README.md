@@ -8,6 +8,6 @@
 7. หยุดการใช้งานโดย Ctr+C ที่ cmd หรือ powershell หรือ `docker-compose down`
 
 ### หมายเหตุ 
-- MYSQL เปิด port ไว้ที่ localhost:3306 \
-- MongoDB เปิด port ไว้ที่ localhost:27017 \
+- MYSQL เปิด port ไว้ที่ localhost:3306
+- MongoDB เปิด port ไว้ที่ localhost:27017
 - Streamlit เปิด port ไว้ที่ localhost:8501
