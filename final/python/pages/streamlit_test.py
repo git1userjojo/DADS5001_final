@@ -26,6 +26,7 @@ engine = create_engine(f"mysql+mysqlconnector://{USER}:{PASSWORD}@{HOST_NAME}:{P
 ####
 # mongodb
 from pymongo import MongoClient
+import duckdb
 
 USER = toml_data['mongodb']['username']
 PASSWORD = toml_data['mongodb']['password']
