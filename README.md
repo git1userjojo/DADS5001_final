@@ -7,6 +7,7 @@
 6. ลองเปิด steamlitweb `http://localhost:8501/` ถ้าใช้ได้จะมีหน้าตาแบบนี้ ![alt text](final\etc\fig\example1.png)
 7. หยุดการใช้งานโดย Ctr+C ที่ cmd หรือ powershell หรือ `docker-compose down`
 
-หมายเหตุ: MYSQL เปิด port ไว้ที่ localhost:3306
-         MongoDB เปิด port ไว้ที่ localhost:27017
-         Streamlit เปิด port ไว้ที่ localhost:8501
+หมายเหตุ: 
+- MYSQL เปิด port ไว้ที่ localhost:3306 \
+- MongoDB เปิด port ไว้ที่ localhost:27017 \
+- Streamlit เปิด port ไว้ที่ localhost:8501
